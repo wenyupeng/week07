@@ -2,6 +2,8 @@
 
 FROM python:3.10-slim-buster
 
+LABEL author="sit722"
+
 WORKDIR /code
 
 COPY requirements.txt .

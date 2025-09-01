@@ -4,6 +4,8 @@ FROM python:3.10-slim-buster
 
 WORKDIR /code
 
+LABEL author="sit722"
+
 COPY requirements.txt .
 
 RUN pip install --no-cache-dir --upgrade pip && \
